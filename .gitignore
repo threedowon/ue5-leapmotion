@@ -1,0 +1,72 @@
+# ============================
+# Unreal Engine Project + Plugins .gitignore
+# ============================
+
+# IDE settings
+.vs/
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Compiled Object/Library/Executables
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+
+# Visual Studio/Xcode user-specific files
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.xcodeproj
+*.xcworkspace
+
+# Engine-generated folders (Project + Plugins)
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+Plugins/*/DerivedDataCache/
+
+# Build artifacts
+Build/
+# Allow PakBlacklist files
+!Build/*/PakBlacklist*.txt
+# Allow custom icons
+!Build/**/*.ico
+
+# Precompiled Assets
+SourceArt/**/*.png
+SourceArt/**/*.tga
+
+# Built data for maps
+*_BuiltData.uasset
+
+# Crash reports
+*.dmp
+
+# Local user config (do not share)
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorUserSettings.ini
